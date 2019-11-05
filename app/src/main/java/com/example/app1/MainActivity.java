@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
                             case R.id.tab1:
-                                Toast.makeText(getApplicationContext(), "첫번째 탭 선택됨",Toast.LENGTH_SHORT).show();
+
                                 getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment1).commit();
                                 return true;
                             case R.id.tab2:
-                                Toast.makeText(getApplicationContext(), "두번째 탭 선택됨", Toast.LENGTH_SHORT).show();
+
                                 getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment2).commit();
                                 return true;
                             case R.id.tab3:
-                                Toast.makeText(getApplicationContext(), "세번째 탭 선택됨", Toast.LENGTH_SHORT).show();
+
                                 getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment3).commit();
                                 return true;
                         }
