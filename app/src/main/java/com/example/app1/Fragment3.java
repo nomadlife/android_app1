@@ -15,7 +15,7 @@ public class Fragment3 extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        Toast.makeText(getActivity(), "세번째 탭 선택됨", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), "세번째 탭 선택됨", Toast.LENGTH_SHORT).show();
 
         return inflater.inflate(R.layout.fragment3,container,false);
     }
